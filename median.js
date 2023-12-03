@@ -1,3 +1,4 @@
+//this function calculates the median of the code
 let numbers = [2, 3, 5, 7, 10, 12, 14]
 function calculateMedian(arr){
     if (arr.length/ 2 == 0)
