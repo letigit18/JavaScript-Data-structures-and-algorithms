@@ -1,15 +1,13 @@
-let str = "level"
-let res ="";
-for (i = str.length - 1; i < str.length; i--)
+function checkPalindrome(str){
+let j = str.length -1; 
+for (i = 0; i < str.length; i++)
 {
-    res = res + str[i];
-    if(i < 0){
-        break;
+    if(str[i] !== str[j]){
+        return false;
     }
+    j--;
+
 }
-if (res === str){
-console.log("true")
+return true;
 }
-else{
-    console.log("false")
-}
+console.log(checkPalindrome("villa"))
