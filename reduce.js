@@ -16,4 +16,3 @@ const totalPrice = item.reduce((total, item)=>{
     return total + item.price
 }, 0)
 console.log(`total price of the fruits is = ${totalPrice}`)
-console.log(item["name"])

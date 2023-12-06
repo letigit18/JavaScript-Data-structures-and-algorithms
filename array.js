@@ -31,3 +31,15 @@ console.log(dep2)
 //array splice function is used to manipulate the elements splice(index, how many elements, newvalue to elements)
 dep2.splice(0, 1, "Engineering")
 console.log(dep2)
+//implementing slice function from the scratch
+function sliceFunc( bindex, eindex, arr){
+    for(let i = 0; i < arr.length; i++){
+        const newArray = []
+        if (i < eindex){
+            newArray.push(arr[i])
+        }
+    }
+}
+console.log('sorting array')
+let num2 = [3, 2, 28, 1, 5]
+console.log(num2.reverse())
